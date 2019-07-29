@@ -1,0 +1,7 @@
+# Demo: https://utteranc.es/  http://trumandu.github.io/about/
+enable: false
+repo: #Github repo such as :TrumanDu/comments
+pathname: pathname
+# theme: github-light,github-dark,github-dark-orange
+theme: github-light
+cdn: https://utteranc.es/client.js

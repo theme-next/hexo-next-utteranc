@@ -1,0 +1,26 @@
+{
+  "name": "hexo-next-utteranc",
+  "version": "1.0.0",
+  "description": "Utteranc comment system for NexT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theme-next/hexo-next-utteranc.git"
+  },
+  "keywords": [
+    "Hexo",
+    "NexT"
+  ],
+  "author": "NexT team",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/theme-next/hexo-next-utteranc/issues"
+  },
+  "homepage": "https://github.com/theme-next/hexo-next-utteranc#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  }
+}
