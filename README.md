@@ -1,6 +1,8 @@
 # Hexo NexT Utteranc
 Utteranc comment system for NexT.
 
+[![Theme](https://img.shields.io/badge/NexT-v7.3.0+-blue.svg)](https://theme-next.org)
+
 ## Install
 ```bash
 npm install --save github:theme-next/hexo-next-utteranc
