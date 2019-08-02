@@ -16,13 +16,9 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 
   injects.comment.raw('utteranc', `
   {% if page.comments %}
-  <script src="${config.cdn}"
-        repo="${config.repo}"
-        issue-term="${config.pathname}"
-        theme="${config.theme}"
-        crossorigin="anonymous"
-        async>
-  </script>
+  <div class="comments">
+  <script src="${config.cdn}" repo="${config.repo}" issue-term="${config.pathname}" theme="${config.theme}" crossorigin="anonymous" async></script>
+  </div>
   {% endif %}
   `);
 
