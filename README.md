@@ -2,10 +2,11 @@
 Utteranc comment system for NexT.
 
 [![Theme](https://img.shields.io/badge/NexT-v7.3.0+-blue.svg)](https://theme-next.org)
+![GitHub release](https://img.shields.io/github/release/theme-next/hexo-next-utteranc.svg)
 
 ## Install
 ```bash
-npm install --save github:theme-next/hexo-next-utteranc
+npm install --save theme-next/hexo-next-utteranc#last-ralease
 ```
 
 ## Configure
