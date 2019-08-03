@@ -20,6 +20,8 @@ utteranc:
   # theme: github-light,github-dark,github-dark-orange
   theme: github-light
   cdn: https://utteranc.es/client.js
+  # If you want to modify priority, please config in **hexo**
+  #priority:
 ```
 
 Thank TrumanDu's [PR764](https://github.com/theme-next/hexo-theme-next/pull/764)

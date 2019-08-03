@@ -24,4 +24,4 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 
   injects.style.push(utils.getFilePath('utteranc.styl'));
 
-});
+}, (hexo.config.utteranc||{}).priority);
