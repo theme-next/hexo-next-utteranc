@@ -9,7 +9,7 @@ Utteranc comment system for NexT.
 
 ## Install
 ```bash
-npm install --save theme-next/hexo-next-utteranc#last-ralease
+npm install --save theme-next/hexo-next-utteranc#last-release
 ```
 
 ## Configure
