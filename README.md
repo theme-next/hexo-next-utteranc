@@ -12,7 +12,7 @@ Utteranc comment system for NexT.
 ## Install
 
 ```bash
-npm install --save theme-next/hexo-next-utteranc#last-release
+npm install theme-next/hexo-next-utteranc
 ```
 
 ## Configure
