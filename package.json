@@ -14,14 +14,13 @@
     "Hexo",
     "NexT"
   ],
-  "author": "NexT team",
+  "author": "NexT <support@theme-next.org> (https://theme-next.org)",
   "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/theme-next/hexo-next-utteranc/issues"
   },
   "homepage": "https://github.com/theme-next/hexo-next-utteranc#readme",
   "dependencies": {
-    "js-yaml": "^3.13.1",
     "next-util": "github:theme-next/next-util"
   }
 }
