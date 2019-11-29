@@ -2,9 +2,10 @@
 
 'use strict';
 
-const utils = require('./utils')(hexo, __dirname);
+const Util = require('next-util');
+const utils = new Util(hexo, __dirname);
 
-hexo.extend.filter.register('theme_inject', function(injects) {
+hexo.extend.filter.register('theme_inject', injects => {
 
   let config = utils.defaultConfigFile('utteranc', 'default.yaml');
   if (!config.enable) return;
@@ -24,4 +25,4 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 
   injects.style.push(utils.getFilePath('utteranc.styl'));
 
-}, (hexo.config.utteranc||{}).priority);
+}, (hexo.config.utteranc || {}).priority);
