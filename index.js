@@ -15,13 +15,23 @@ hexo.extend.filter.register('theme_inject', injects => {
     return;
   }
 
-  injects.comment.raw('utteranc', `
-  {% if page.comments %}
-  <div class="comments">
-  <script src="${config.cdn}" repo="${config.repo}" issue-term="${config.pathname}" theme="${config.theme}" crossorigin="anonymous" async></script>
-  </div>
-  {% endif %}
-  `);
+  if (!config.label) {
+    injects.comment.raw('utteranc', `
+    {% if page.comments %}
+    <div class="comments">
+    <script src="${config.cdn}" repo="${config.repo}" issue-term="${config.pathname}" theme="${config.theme}" crossorigin="anonymous" async></script>
+    </div>
+    {% endif %}
+    `);
+  } else {
+    injects.comment.raw('utteranc', `
+    {% if page.comments %}
+    <div class="comments">
+    <script src="${config.cdn}" repo="${config.repo}" issue-term="${config.pathname}" label="${config.label}" theme="${config.theme}" crossorigin="anonymous" async></script>
+    </div>
+    {% endif %}
+    `);
+  }
 
   injects.style.push(utils.getFilePath('utteranc.styl'));
 

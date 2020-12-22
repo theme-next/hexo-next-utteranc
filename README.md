@@ -24,7 +24,8 @@ utteranc:
   enable: false
   repo: #Github repo such as :TrumanDu/comments
   pathname: pathname
-  # theme: github-light,github-dark,github-dark-orange
+  label: #The label will be assigned to issues created by Utterances
+  # theme: github-light,github-dark,github-dark-orange,preferred-color-scheme,icy-dark,dark-blue,photon-dark,boxy-light
   theme: github-light
   cdn: https://utteranc.es/client.js
   # If you want to modify priority, please config in **hexo**
