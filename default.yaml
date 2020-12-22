@@ -3,6 +3,7 @@ utteranc:
   enable: false
   repo: #Github repo such as :TrumanDu/comments
   pathname: pathname
+  # label: The label will be assigned to issues created by Utterances
   # theme: github-light,github-dark,github-dark-orange
   theme: github-light
   cdn: https://utteranc.es/client.js
